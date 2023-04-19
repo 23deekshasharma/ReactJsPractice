@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  margin-left: 1%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+.dropdown {
+  height: 35px;
+  width: 150px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-right: 10%;
+}
+.nested {
+  margin: 1%;
+}
+
+.non-nested {
+  margin: 1%;
+}
+
+.delete {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.options {
+  line-height: 10px;
+}
